@@ -1,0 +1,23 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.custom_btn_list {
+    .custom_btn {
+        padding: 10px 25px;
+        color: black;
+        background: #dddddd;
+        margin-right: 10px;
+        text-decoration: none;
+
+        &:hover {
+            color: #ffffff;
+            background: black;
+        }
+    }
+}
